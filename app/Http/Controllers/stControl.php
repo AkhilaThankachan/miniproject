@@ -141,9 +141,10 @@ class stControl extends Controller
         $id=session('sess');
         // echo $id;
         // exit();
-        $data['result']=$this->obj4->selectr('results',$id);
-        // print_r($data);
-        // exit();
+        $data['result']=result::join('stregs','stregs.name','=','results.name')
+        ->where('stregs.id',$id)
+        ->select('results.id','results.name','results.class','results.subject','results.results','results.status')
+        ->get();
         return view('user.vresults',$data);
     }
     // public function logout(Request $req)
