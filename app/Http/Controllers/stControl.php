@@ -139,7 +139,11 @@ class stControl extends Controller
     public function vresults()
     {
         $id=session('sess');
+        // echo $id;
+        // exit();
         $data['result']=$this->obj4->selectr('results',$id);
+        // print_r($data);
+        // exit();
         return view('user.vresults',$data);
     }
     // public function logout(Request $req)

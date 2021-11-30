@@ -29,7 +29,7 @@
                     <div class="col-md-12">
                         <button id="primary-nav-button" type="button">Menu</button>
                         <a href="index.html"><div class="logo">
-                            <img src="img/download.jpg" alt="Venue Logo">
+                            <img src="img/bs.jpg" alt="Venue Logo">
                         </div></a>
                         <nav id="primary-nav" class="dropdown cf">
                             <ul class="dropdown menu">
@@ -54,14 +54,14 @@
         </header>
     </div>
 
-    <section class="banner" id="top" style="background-image: url(img/image.jpg);">
+    <section class="banner" id="top" style="background-image: url(img/bs1.jpg);">
         <div class="container">
             <div class="row">
                 <!-- <div class="col-md-10 col-md-offset-1"> -->
                     <div class="banner-caption">
                         <!-- <div class="line-dec"></div> -->
-                        <h2>WELCOME...</h2>
-                        <h2>BEAUMONT PUBLIC SCHOOL</h2>
+                        <!-- <h2>WELCOME...</h2>
+                        <h2>BEAUMONT PUBLIC SCHOOL</h2> -->
                     </div> 
                 <!-- </div> -->
             </div>
